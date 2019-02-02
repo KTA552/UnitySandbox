@@ -57,15 +57,7 @@ namespace kt
                 {
                     ProfilerDriver.ClearAllFrames();
                 }
-
-
             }
-
-
-
-
-
         }
     }
-
 }
