@@ -9,7 +9,7 @@ namespace kt
     public class ProfilerDriverSample : EditorWindow
     {
 
-        [MenuItem("Tools/kt/ProfilerDriverSample")]
+        [MenuItem("Tools/kt/Samples/ProfilerDriverSample")]
         private static void ShowWindow()
         {
             var window = GetWindow<ProfilerDriverSample>();
