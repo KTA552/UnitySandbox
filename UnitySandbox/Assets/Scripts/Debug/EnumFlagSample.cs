@@ -6,6 +6,13 @@ using System;
 
 public class EnumFlagSample : EditorWindow
 {
+    [MenuItem("Tools/kt/Samples/EnumFlagSample")]
+    private static void ShowWindow()
+    {
+        var window = GetWindow<EnumFlagSample>();
+        window.titleContent = new GUIContent("EnumFlagSample");
+        window.Show();
+    }
 
     [Flags]
     enum OutputFlag
@@ -15,14 +22,6 @@ public class EnumFlagSample : EditorWindow
         Flag2 = 1 << 2,
         Flag3 = 1 << 3,
         Flag4 = 1 << 4,
-    }
-
-    [MenuItem("Tools/kt/Samples/EnumFlagSample")]
-    private static void ShowWindow()
-    {
-        var window = GetWindow<EnumFlagSample>();
-        window.titleContent = new GUIContent("EnumFlagSample");
-        window.Show();
     }
 
     OutputFlag _outputFlag = OutputFlag.Flag0 | OutputFlag.Flag3;
