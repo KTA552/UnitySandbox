@@ -625,9 +625,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 76084ed6-f492-4742-b874-8c3121e99913
+  cloudProjectId: a6077113-8b96-4e62-89d6-bc4d342c4e21
   framebufferDepthMemorylessMode: 0
-  projectName: UnitySandbox (1)
+  projectName: UnitySandbox
   organizationId: nakamura-keita
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
